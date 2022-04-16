@@ -1,17 +1,12 @@
-import './App.css';
-import ExpenseItem from './components/ExpenseItem';
+import "./App.css";
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <h1 className='header'>
-    //     Here we go
-    //     </h1>
-       
-    //   </header>
-    // </div>
-    <ExpenseItem></ExpenseItem>
+    <div>
+      <h2>Lets get started</h2>
+      <ExpenseItem></ExpenseItem>
+    </div>
   );
 }
 
